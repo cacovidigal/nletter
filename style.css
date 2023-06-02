@@ -4,3 +4,64 @@
   .attribution a { color: hsl(228, 45%, 44%); }
 </style>
 */
+.topo_da_pagina {
+  position: absolute;
+  width: 375px;
+  height: 284px;
+  left: 0px;
+  top: 0px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.corpo_conteudo {
+  position: absolute;
+  width: 327px;
+  height: 478px;
+  left: 24px;
+  top: 324px;
+}
+
+.titulo {
+  position: absolute;
+  width: 327px;
+  height: 40px;
+  left: calc(50% - 327px/2);
+  top: 1rem;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+
+  color: #242742;
+
+}
+
+.texto_um {
+  position: absolute;
+  width: 327px;
+  height: 48px;
+  left: calc(50% - 327px/2);
+  top: 5rem;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #242742;
+}
+
+.topicos {
+  position: absolute;
+  width: 327px;
+  height: 140px;
+  left: 24px;
+  top: 9rem;
+}
+
+form {
+  position: absolute;
+  width: 327px;
+  height: 162px;
+  left: 24px;
+  top: 20rem;
+}
