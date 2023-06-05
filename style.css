@@ -78,6 +78,10 @@ form {
   height: 162px;
   left: 24px;
   top: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
 
 }
 
@@ -87,9 +91,10 @@ form {
   height: 36px;
   left: -8px;
   top: -2rem;
-  
+
 }
-.email_box{
+
+.email_box {
   position: absolute;
   width: 327px;
   height: 36px;
@@ -101,12 +106,15 @@ form {
 .subscribe {
   position: absolute;
   width: 327px;
-  height: 36px;
-  left: -8px;
-  top: 17px;
-  border-radius:  8px;
-  color: #242742;
-  
+  height: 56px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  background-color: #242742;
+  color: white;
+  left: auto;
+  top: auto;
+    
+
 }
 
 .attribution {

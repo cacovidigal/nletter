@@ -1,0 +1,57 @@
+.parte_superior {
+    position: absolute;
+    width: 327px;
+    height: 304px;
+    left: 24px;
+    top: 149px;
+}
+
+.check {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1rem;
+    top: 1px;
+}
+
+.titulo {
+    position: absolute;
+    width: 327px;
+    height: 80px;
+    left: 1rem;
+    top: 6rem;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+
+    color: #242742;
+}
+
+.texto {
+    position: absolute;
+    width: 327px;
+    height: 96px;
+    left: 1rem;
+    top: 15rem;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    
+    color: #242742;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.botao{
+    width: 327px;
+    height: 56px;
+    margin-top: 33rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+    background-color: #242742;
+    color: white;
+}
