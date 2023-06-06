@@ -4,6 +4,8 @@
   .attribution a { color: hsl(228, 45%, 44%); }
 </style>
 */
+
+
 .topo_da_pagina {
   position: absolute;
   width: 375px;
@@ -18,8 +20,9 @@
   position: absolute;
   width: 327px;
   height: 478px;
-  left: 24px;
+  left: 10px;
   top: 324px;
+  
 }
 
 .titulo {
@@ -98,7 +101,7 @@ form {
   position: absolute;
   width: 327px;
   height: 36px;
-  left: -8px;
+  left: 4px;
   top: 1rem;
 
 }
@@ -113,7 +116,7 @@ form {
   color: white;
   left: auto;
   top: auto;
-    
+
 
 }
 
@@ -122,5 +125,5 @@ form {
   width: 327px;
   height: 162px;
   left: 24px;
-  top: 60rem;
+  top: 40rem;
 }

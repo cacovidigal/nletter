@@ -38,15 +38,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    
+
     color: #242742;
 }
 
-strong{
+strong {
     font-weight: 700;
 }
 
-.botao{
+.botao {
     width: 327px;
     height: 56px;
     margin-top: 33rem;
@@ -54,4 +54,22 @@ strong{
     border-radius: 8px;
     background-color: #242742;
     color: white;
+}
+
+@media (min-width: 400px) {
+
+    body {
+        position: absolute;
+        width: 504px;
+        height: 520px;
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        margin-left: 10rem;
+    }
+
 }
