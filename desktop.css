@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 15px;
+}
+
+.titulo {
+    position: absolute;
+    width: 546px;
+    height: 56px;
+    left: calc(50% - 346px/2 - 287px);
+    top: calc(50% - 56px/2 - 196px);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+
+    color: #242742;
+}
+
+.texto_um {
+    position: absolute;
+    width: 376px;
+    height: 48px;
+    left: calc(50% - 376px/2 - 272px);
+    top: calc(50% - 48px/2 - 120px);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #242742;
+}
+
+.topicos {
+    position: absolute;
+    width: 376px;
+    height: 92px;
+    left: 260px;
+    top: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.descricao_topicos {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -1rem;
+    gap: 1rem;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #242742;
+}
+
+form {
+    margin-top: 25rem;
+    left: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.email_box {
+    width: 327px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.subscribe {
+    
+    width: 327px;
+    height: 56px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-color: #242742;
+    color: white;
+    left: auto;
+    top: auto;
+  
+  
+  }
+
+  .attribution {
+    
+    width: 327px;
+    height: 162px;
+    left: 24px;
+    top: 44rem;
+    text-align: center;
+  }
