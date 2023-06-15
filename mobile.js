@@ -8,5 +8,6 @@ function clicar(){
     //botão que ativa a pagina de sucesso desktop
     //botão que retorna para pagina inicial
     //mensagem em vermelho para incerir dados validos na caixa de e-mail
+    //verificar a forma de juntar todos os html nesse js
 
 }
