@@ -10,5 +10,6 @@ function clicar(){
     //mensagem em vermelho para incerir dados validos na caixa de e-mail
     //verificar a forma de juntar todos os html nesse js
     //estudando js
+    //usar js para mudar a car do botão
 
 }
